@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: century gothic;
+}
+body {
+  background-position: center;
+  background-size: cover;
+  background-image: url(../Images/Group\ 23.jpg);
+  height: 110vh;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+.logo img {
+  width: 10em;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+.menu ul li {
+  margin: 0 20px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+.active {
+  border-bottom: 1px solid white;
+}
+.banner {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner .content {
+  max-width: 600px;
+}
+.banner .content h2 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 3.5em;
+  letter-spacing: 0.1em;
+}
+.banner .content p {
+  color: white;
+  line-height: 1.5em;
+}
+.banner ul {
+  margin-bottom: 50px;
+}
+.banner ul li {
+  list-style: none;
+}
+.banner ul img {
+  width: 2.5em;
+  margin: 5px 0;
+}
+.play{
+    display: flex;
+    margin-top: 30px;
+}
+.play img{
+    width: 4em;
+    cursor: pointer;
+}
+.play a{
+    display: inline-flex;
+    position: relative;
+    text-transform: uppercase;
+    padding: 0px 10px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+}
